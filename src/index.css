@@ -1,0 +1,182 @@
+* {
+    box-sizing: border-box ;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Karla' ,sans-serif;
+    padding: 1em 2em;
+    min-height: 100vh;
+    max-width: 90%;
+    /*text-align: center;*/
+    background-color: #f5f7fb;
+    /*background-color: #282D35;*/
+    color: #293264;
+}
+
+button {
+    width: 193px;
+    height: 52px;
+    border-radius: 15px;
+    background: #4D5B9E;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /*text-align: center;*/
+    color: #F5F7FB;
+    cursor: pointer;
+    border:  none;
+}
+
+.startup-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.header {
+    font-family: 'Karla', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 31.25px;
+    line-height: 37px;
+    text-align: center;
+    color: #293264;
+}
+
+p {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #293264;
+    margin: 5px 0 20px 0;
+}
+
+
+.span{
+    position: absolute;
+width: 136.11px;
+height: 20.58px;
+left: 207.09px;
+top: 330.25px;
+
+}
+
+
+.questions-div{
+    margin: 20px;
+    text-align: left;
+}
+
+.question{
+    font-family: 'Karla';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #293264;
+    margin-bottom: 10px;
+}
+
+.answers{
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.answer{
+    border: 1px solid #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    /*font-size: 10.24px;*/
+    line-height: 12px;
+    text-align: center;
+    color: #293264;
+    padding: 0.5em 1em;
+    cursor: pointer;
+}
+
+.line {
+    /*width: 450px;*/
+    height: 0px;
+    border: 1px solid #DBDEF0;
+    transform: rotate(-0.05deg);
+    margin: 10px 0;
+}
+
+.selected{
+    background: #D6DBF5;
+}
+
+.correct{
+    background: #94D7A2;
+}
+
+.wrong{
+    background: #F8BCBC;
+}
+
+/*.button, .play-again{
+    width: 120px;
+    height: 35px;
+    background: #4D5B9E;
+    border-radius: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10.24px;
+    line-height: 12px;
+    text-align: center;
+    color: #F5F7FB;
+    font-weight: 600;
+}*/
+
+
+.bottom-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*margin: 5px;*/
+    /*width: 354px;*/
+    /*height: 30px;*/
+    /*text-align: right;*/
+}
+
+.score {
+    font-style: 18px;
+    margin-right: 40px;
+}
+
+.total {
+    width: 262px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    color: #293264;
+}
+
+/*
+https://opentdb.com/api.php?amount=10&category=11&difficulty=medium&type=multiple
+
+*/
